@@ -35,6 +35,13 @@ pub struct NOAAConfig {
     pub base_url: String,
 }
 
+// Structure for the credentials.json file
+#[derive(Debug, Deserialize)]
+struct KalshiCredentials {
+    key_id: String,
+    private_key: String,
+}
+
 impl Config {
     pub fn load() -> Result<Self> {
         let config_paths = [
@@ -55,6 +62,23 @@ impl Config {
         Ok(Config::default())
     }
     
+    /// Load credentials from Kalshi credentials.json
+    pub fn load_credentials(&self) -> Result<(String, String)> {
+        let creds_path = Path::new("/Users/alfred/.config/kalshi/credentials.json");
+        
+        if !creds_path.exists() {
+            return Err(TradingError::AuthError(
+                "Credentials file not found at ~/.config/kalshi/credentials.json".to_string()
+            ));
+        }
+        
+        let contents = fs::read_to_string(creds_path)?;
+        let creds: KalshiCredentials = serde_json::from_str(&contents)?;
+        
+        Ok((creds.key_id, creds.private_key))
+    }
+    
+    /// Load private key from PEM file (fallback)
     pub fn load_private_key(&self) -> Result<String> {
         let path = Path::new(&self.kalshi.private_key_path);
         if !path.exists() {
@@ -78,7 +102,7 @@ impl Default for Config {
             kalshi: KalshiConfig {
                 key_id: String::new(),
                 private_key_path: "/Users/alfred/.config/kalshi/private_key.pem".to_string(),
-                email: String::new(),
+                email: "jmuller3140@gmail.com".to_string(),
                 api_base: "https://api.elections.kalshi.com".to_string(),
             },
             trading: TradingConfig {

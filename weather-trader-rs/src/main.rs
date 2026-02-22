@@ -55,14 +55,18 @@ async fn main() -> anyhow::Result<()> {
         }
     }
     
-    // Initialize Kalshi client with auth if available
-    let kalshi = if let Ok(private_key) = config.load_private_key() {
-        info!("✅ Loaded private key from {}", config.kalshi.private_key_path);
-        KalshiClient::new()
-            .with_auth(&private_key, &config.kalshi.key_id)?
-    } else {
-        info!("⚠️  No private key found - running in demo mode");
-        KalshiClient::new()
+    // Initialize Kalshi client with credentials
+    let kalshi = match config.load_credentials() {
+        Ok((key_id, private_key)) => {
+            info!("✅ Loaded credentials from ~/.config/kalshi/credentials.json");
+            info!("   Key ID: {}...", &key_id[..8.min(key_id.len())]);
+            KalshiClient::new().with_auth(&private_key, &key_id)?
+        }
+        Err(e) => {
+            info!("⚠️  Could not load credentials: {}", e);
+            info!("   Running in demo mode (no trades will execute)");
+            KalshiClient::new()
+        }
     };
     
     // Create trading bot
@@ -82,7 +86,7 @@ async fn main() -> anyhow::Result<()> {
     // Start dashboard if enabled
     if enable_dashboard {
         let dashboard = Dashboard::new();
-        let dashboard_handle = tokio::spawn(async move {
+        let _dashboard_handle = tokio::spawn(async move {
             dashboard.run(8080).await;
         });
         info!("\n🌐 Dashboard: http://localhost:8080");

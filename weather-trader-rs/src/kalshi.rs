@@ -4,9 +4,8 @@ use crate::models::{MarketInfo, Side};
 use chrono::{DateTime, Utc};
 use rsa::{pkcs1::DecodeRsaPrivateKey, pkcs8::DecodePrivateKey, RsaPrivateKey};
 use rsa::pss::Pss;
-use rsa::signature::{SignatureEncoding, Signer};
-use sha2::Sha256;
-use serde::{Deserialize, Serialize};
+use sha2::{Sha256, Digest};
+use serde::{Deserialize};
 use serde_json::json;
 use rand::rngs::OsRng;
 
@@ -72,9 +71,14 @@ impl KalshiClient {
         let timestamp = Utc::now().timestamp().to_string();
         let msg = format!("{}{}{}", timestamp, method.to_uppercase(), path);
         
-        // Sign with RSA-PSS using SHA256
+        // Hash the message with SHA256
+        let mut hasher = Sha256::new();
+        hasher.update(msg.as_bytes());
+        let hashed_msg = hasher.finalize();
+        
+        // Sign with RSA-PSS
         let mut rng = OsRng;
-        let signature = key.sign_with_rng(&mut rng, Pss::new::<Sha256>(), msg.as_bytes())
+        let signature = key.sign_with_rng(&mut rng, Pss::new::<Sha256>(), &hashed_msg)
             .map_err(|e| TradingError::AuthError(format!("Signing failed: {}", e)))?;
         
         let signature_b64 = base64::encode(&signature);
@@ -241,6 +245,5 @@ mod tests {
     #[test]
     fn test_kalshi_client_creation() {
         let _client = KalshiClient::new();
-        assert!(true); // Just verify no panic
     }
 }
