@@ -1,0 +1,16 @@
+[Unit]
+Description=Weather Trading Bot
+After=network.target
+
+[Service]
+Type=simple
+User=alfred
+WorkingDirectory=/Users/alfred/.openclaw/workspace/weather-trader-rs
+ExecStart=/Users/alfred/.openclaw/workspace/weather-trader-rs/target/release/weather-trader
+Restart=always
+RestartSec=60
+Environment="RUST_LOG=info"
+Environment="DRY_RUN=true"
+
+[Install]
+WantedBy=multi-user.target

@@ -4,11 +4,17 @@ pub mod models;
 pub mod noaa;
 pub mod kalshi;
 pub mod bot;
+pub mod config;
+pub mod bls;
+pub mod dashboard;
 
 // Re-export main types
 pub use kalshi::KalshiClient;
 pub use noaa::NoaaClient;
 pub use bot::TradingBot;
+pub use config::Config;
+pub use bls::BLSClient;
+pub use dashboard::Dashboard;
 
 use thiserror::Error;
 

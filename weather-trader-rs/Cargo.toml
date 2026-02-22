@@ -20,6 +20,7 @@ thiserror = "1.0"
 config = "0.13"
 lazy_static = "1.4"
 regex = "1.10"
+warp = "0.3"
 
 [dev-dependencies]
 tokio-test = "0.4"
