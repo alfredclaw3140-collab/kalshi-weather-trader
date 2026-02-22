@@ -1,0 +1,706 @@
+{
+  "url": "https://www.fitness1440.com/yorkpa/",
+  "timestamp": "2026-02-16T16:01:54.142Z",
+  "pages": [
+    {
+      "name": "homepage",
+      "url": "https://www.fitness1440.com/yorkpa/",
+      "path": "/",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 180,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/homepage-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/homepage-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/homepage-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": true,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "about",
+      "url": "https://www.fitness1440.com/yorkpa/about",
+      "path": "/about",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "contact",
+      "url": "https://www.fitness1440.com/yorkpa/contact",
+      "path": "/contact",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 85,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/contact-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/contact-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/contact-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "services",
+      "url": "https://www.fitness1440.com/yorkpa/services",
+      "path": "/services",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "menu",
+      "url": "https://www.fitness1440.com/yorkpa/menu",
+      "path": "/menu",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "products",
+      "url": "https://www.fitness1440.com/yorkpa/products",
+      "path": "/products",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "pricing",
+      "url": "https://www.fitness1440.com/yorkpa/pricing",
+      "path": "/pricing",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "schedule",
+      "url": "https://www.fitness1440.com/yorkpa/schedule",
+      "path": "/schedule",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 86,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/schedule-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/schedule-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/schedule-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "classes",
+      "url": "https://www.fitness1440.com/yorkpa/classes",
+      "path": "/classes",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "gallery",
+      "url": "https://www.fitness1440.com/yorkpa/gallery",
+      "path": "/gallery",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "reviews",
+      "url": "https://www.fitness1440.com/yorkpa/reviews",
+      "path": "/reviews",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "book-now",
+      "url": "https://www.fitness1440.com/yorkpa/book-now",
+      "path": "/book-now",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "join",
+      "url": "https://www.fitness1440.com/yorkpa/join",
+      "path": "/join",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    },
+    {
+      "name": "memberships",
+      "url": "https://www.fitness1440.com/yorkpa/memberships",
+      "path": "/memberships",
+      "status": 404,
+      "loadTime": 0,
+      "contentLength": 0,
+      "issues": [
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404"
+        }
+      ],
+      "screenshots": [],
+      "seo": {},
+      "performance": {},
+      "accessibility": [],
+      "design": {
+        "elementCounts": {},
+        "cms": "Unknown",
+        "frameworks": []
+      },
+      "working": false
+    }
+  ],
+  "summary": {
+    "totalPages": 14,
+    "workingPages": 3,
+    "brokenPages": 11,
+    "issues": {
+      "critical": [
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "products",
+          "url": "https://www.fitness1440.com/yorkpa/products"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join"
+        },
+        {
+          "type": "error",
+          "severity": "critical",
+          "message": "Page returned 404",
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships"
+        }
+      ],
+      "high": [
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        }
+      ],
+      "medium": [
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        }
+      ],
+      "low": []
+    },
+    "scores": {
+      "overall": 0,
+      "seo": 7,
+      "performance": 33,
+      "accessibility": 33,
+      "mobile": 0
+    }
+  }
+}

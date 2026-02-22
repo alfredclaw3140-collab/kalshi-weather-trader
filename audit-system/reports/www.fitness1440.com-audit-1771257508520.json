@@ -1,0 +1,1653 @@
+{
+  "url": "https://www.fitness1440.com/yorkpa/",
+  "timestamp": "2026-02-16T15:58:28.517Z",
+  "pages": [
+    {
+      "name": "homepage",
+      "url": "https://www.fitness1440.com/yorkpa/",
+      "path": "/",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/homepage-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/homepage-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/homepage-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "about",
+      "url": "https://www.fitness1440.com/yorkpa/about",
+      "path": "/about",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/about-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/about-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/about-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "contact",
+      "url": "https://www.fitness1440.com/yorkpa/contact",
+      "path": "/contact",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/contact-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/contact-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/contact-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "services",
+      "url": "https://www.fitness1440.com/yorkpa/services",
+      "path": "/services",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/services-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/services-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/services-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "menu",
+      "url": "https://www.fitness1440.com/yorkpa/menu",
+      "path": "/menu",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/menu-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/menu-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/menu-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "products",
+      "url": "https://www.fitness1440.com/yorkpa/products",
+      "path": "/products",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/products-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/products-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/products-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "pricing",
+      "url": "https://www.fitness1440.com/yorkpa/pricing",
+      "path": "/pricing",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/pricing-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/pricing-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/pricing-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "schedule",
+      "url": "https://www.fitness1440.com/yorkpa/schedule",
+      "path": "/schedule",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/schedule-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/schedule-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/schedule-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "classes",
+      "url": "https://www.fitness1440.com/yorkpa/classes",
+      "path": "/classes",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/classes-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/classes-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/classes-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "gallery",
+      "url": "https://www.fitness1440.com/yorkpa/gallery",
+      "path": "/gallery",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/gallery-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/gallery-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/gallery-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "reviews",
+      "url": "https://www.fitness1440.com/yorkpa/reviews",
+      "path": "/reviews",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/reviews-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/reviews-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/reviews-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "book-now",
+      "url": "https://www.fitness1440.com/yorkpa/book-now",
+      "path": "/book-now",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/book-now-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/book-now-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/book-now-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "join",
+      "url": "https://www.fitness1440.com/yorkpa/join",
+      "path": "/join",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/join-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/join-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/join-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    },
+    {
+      "name": "memberships",
+      "url": "https://www.fitness1440.com/yorkpa/memberships",
+      "path": "/memberships",
+      "status": 200,
+      "loadTime": 0,
+      "contentLength": 40,
+      "issues": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)"
+        }
+      ],
+      "screenshots": [
+        {
+          "viewport": "desktop",
+          "path": "./screenshots/www.fitness1440.com/memberships-desktop.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "tablet",
+          "path": "./screenshots/www.fitness1440.com/memberships-tablet.png",
+          "status": "pending"
+        },
+        {
+          "viewport": "mobile",
+          "path": "./screenshots/www.fitness1440.com/memberships-mobile.png",
+          "status": "pending"
+        }
+      ],
+      "seo": {
+        "hasTitle": false,
+        "hasMetaDescription": false,
+        "hasViewport": false,
+        "hasH1": false,
+        "hasAltTags": false,
+        "hasSchema": false,
+        "hasCanonical": false
+      },
+      "performance": {
+        "hasLazyLoading": false,
+        "hasWebp": false,
+        "hasMinified": true,
+        "hasGzip": true
+      },
+      "accessibility": [],
+      "design": {
+        "elementCounts": {
+          "images": 0,
+          "videos": 0,
+          "headings": 0,
+          "paragraphs": 0,
+          "links": 0,
+          "scripts": 0,
+          "stylesheets": 0
+        },
+        "cms": "Unknown/Custom",
+        "frameworks": []
+      },
+      "working": true
+    }
+  ],
+  "summary": {
+    "totalPages": 14,
+    "workingPages": 14,
+    "brokenPages": 0,
+    "issues": {
+      "critical": [
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "products",
+          "url": "https://www.fitness1440.com/yorkpa/products"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "products",
+          "url": "https://www.fitness1440.com/yorkpa/products"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join"
+        },
+        {
+          "type": "seo",
+          "severity": "critical",
+          "message": "Missing page title",
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships"
+        },
+        {
+          "type": "mobile",
+          "severity": "critical",
+          "message": "Not mobile-responsive (missing viewport tag)",
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships"
+        }
+      ],
+      "high": [
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "products",
+          "url": "https://www.fitness1440.com/yorkpa/products"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join"
+        },
+        {
+          "type": "seo",
+          "severity": "high",
+          "message": "Missing meta description",
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships"
+        }
+      ],
+      "medium": [
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "products",
+          "url": "https://www.fitness1440.com/yorkpa/products"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "products",
+          "url": "https://www.fitness1440.com/yorkpa/products"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join"
+        },
+        {
+          "type": "seo",
+          "severity": "medium",
+          "message": "Missing H1 heading",
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships"
+        },
+        {
+          "type": "content",
+          "severity": "medium",
+          "message": "Thin content (few paragraphs)",
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships"
+        }
+      ],
+      "low": []
+    },
+    "scores": {
+      "overall": 0,
+      "seo": 0,
+      "performance": 7,
+      "accessibility": 7,
+      "mobile": 0
+    }
+  }
+}

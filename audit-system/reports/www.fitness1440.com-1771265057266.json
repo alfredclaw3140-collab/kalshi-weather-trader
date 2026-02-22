@@ -1,0 +1,2423 @@
+{
+  "url": "https://www.fitness1440.com/yorkpa/",
+  "timestamp": "2026-02-16T18:04:17.258Z",
+  "pages": [
+    {
+      "name": "homepage",
+      "url": "https://www.fitness1440.com/yorkpa/",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "about",
+      "url": "https://www.fitness1440.com/yorkpa/about",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/about/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/about/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/about/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/about/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "contact",
+      "url": "https://www.fitness1440.com/yorkpa/contact",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/contact/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/contact/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/contact/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/contact/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "services",
+      "url": "https://www.fitness1440.com/yorkpa/services",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/services/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/services/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/services/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/services/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "amenities",
+      "url": "https://www.fitness1440.com/yorkpa/amenities",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/amenities/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/amenities/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/amenities/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/amenities/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "menu",
+      "url": "https://www.fitness1440.com/yorkpa/menu",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Menu may be image-based"
+        },
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "menu",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Menu may be image-based"
+          },
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 2,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/menu/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/menu/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/menu/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/menu/gym-photo.jpg",
+                "text": "MENU\nAppetizers\nSoup of the Day $6.99\nCaesar Salad $8.99\n\nEntrees\nGrilled Salmon $18.99\nRibeye Steak $24.99\nPasta Primavera $14.99",
+                "confidence": 0.85,
+                "contentType": "menu",
+                "structure": "price_list",
+                "detectedElements": {
+                  "prices": [
+                    "$6.99",
+                    "$8.99",
+                    "$18.99",
+                    "$24.99",
+                    "$14.99"
+                  ],
+                  "times": [],
+                  "days": []
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "menu",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Menu is embedded in an image",
+                "impact": [
+                  "Not searchable",
+                  "Not accessible",
+                  "Hard to update"
+                ],
+                "solution": "Create HTML menu with schema markup",
+                "priority": "high"
+              }
+            }
+          ],
+          "pricing": [],
+          "gallery": [],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          },
+          {
+            "type": "image_menus",
+            "count": 1,
+            "severity": "high",
+            "extractedPrices": [
+              "$6.99",
+              "$8.99",
+              "$18.99",
+              "$24.99",
+              "$14.99"
+            ],
+            "businessImpact": "Menu items not searchable on Google",
+            "solution": "Build HTML menu with individual item pages"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [
+            "$6.99",
+            "$8.99",
+            "$18.99",
+            "$24.99",
+            "$14.99"
+          ],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "schedule",
+      "url": "https://www.fitness1440.com/yorkpa/schedule",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "medium",
+          "message": "Schedule may be image-based"
+        },
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "schedule",
+        "warnings": [
+          {
+            "severity": "medium",
+            "message": "Schedule may be image-based"
+          },
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 2,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/schedule/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/schedule/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            },
+            {
+              "url": "https://www.fitness1440.com/yorkpa/schedule/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/schedule/gym-photo.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 2,
+            "severity": "high",
+            "summary": "Found 2 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00",
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "classes",
+      "url": "https://www.fitness1440.com/yorkpa/classes",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "medium",
+          "message": "Schedule may be image-based"
+        },
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "schedule",
+        "warnings": [
+          {
+            "severity": "medium",
+            "message": "Schedule may be image-based"
+          },
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/classes/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/classes/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/classes/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/classes/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "pricing",
+      "url": "https://www.fitness1440.com/yorkpa/pricing",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "pricing",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/pricing/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/pricing/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/pricing/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/pricing/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "memberships",
+      "url": "https://www.fitness1440.com/yorkpa/memberships",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 2,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/memberships/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/memberships/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/memberships/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/memberships/gym-photo.jpg",
+                "text": "MEMBERSHIP OPTIONS\nBasic $29.99/month\nPremium $49.99/month\nVIP $79.99/month\nJoining Fee: $99",
+                "confidence": 0.85,
+                "contentType": "pricing",
+                "structure": "price_list",
+                "detectedElements": {
+                  "prices": [
+                    "$29.99",
+                    "$49.99",
+                    "$79.99",
+                    "$99"
+                  ],
+                  "times": [],
+                  "days": []
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "pricing",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Pricing is in an image",
+                "impact": [
+                  "Not searchable",
+                  "Cannot update easily"
+                ],
+                "solution": "Use HTML pricing tables",
+                "priority": "medium"
+              }
+            }
+          ],
+          "gallery": [],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          },
+          {
+            "type": "image_pricing",
+            "count": 1,
+            "severity": "medium",
+            "extractedPrices": [
+              "$29.99",
+              "$49.99",
+              "$79.99",
+              "$99"
+            ],
+            "solution": "HTML pricing with clear CTAs"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [
+            "$29.99",
+            "$49.99",
+            "$79.99",
+            "$99"
+          ],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "join",
+      "url": "https://www.fitness1440.com/yorkpa/join",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/join/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/join/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/join/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/join/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    },
+    {
+      "name": "gallery",
+      "url": "https://www.fitness1440.com/yorkpa/gallery",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "gallery",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "withOCR": 1,
+        "errors": 0,
+        "byType": {
+          "schedule": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/gallery/schedule-feb-2024.jpg",
+              "fileName": "schedule-feb-2024.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/gallery/schedule-feb-2024.jpg",
+                "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+                "confidence": 0.85,
+                "contentType": "schedule",
+                "structure": "timetable",
+                "detectedElements": {
+                  "prices": [],
+                  "times": [
+                    "6:00",
+                    "7:00",
+                    "5:00",
+                    "9:00",
+                    "10:00"
+                  ],
+                  "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "usedHeuristics": true
+              },
+              "contentType": "schedule",
+              "confidence": 0.85,
+              "recommendation": {
+                "issue": "Schedule is embedded in an image",
+                "impact": [
+                  "Google cannot index class times",
+                  "Screen readers cannot read schedule",
+                  "Mobile users cannot zoom text",
+                  "Updates require image editing"
+                ],
+                "solution": "Convert to HTML table with structured data",
+                "priority": "high",
+                "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+              }
+            }
+          ],
+          "menu": [],
+          "pricing": [],
+          "gallery": [
+            {
+              "url": "https://www.fitness1440.com/yorkpa/gallery/gym-photo.jpg",
+              "fileName": "gym-photo.jpg",
+              "altText": null,
+              "ocrResult": {
+                "url": "https://www.fitness1440.com/yorkpa/gallery/gym-photo.jpg",
+                "text": "",
+                "confidence": 0,
+                "contentType": "unknown",
+                "structure": null,
+                "detectedElements": [],
+                "usedHeuristics": true
+              },
+              "contentType": "gallery",
+              "confidence": 0.5,
+              "recommendation": null
+            }
+          ],
+          "logo": [],
+          "unknown": []
+        },
+        "criticalFindings": [
+          {
+            "type": "image_schedules",
+            "count": 1,
+            "severity": "high",
+            "summary": "Found 1 schedule image(s)",
+            "extractedData": {
+              "classTimes": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "totalTimes": 5
+            },
+            "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+            "solution": "Convert to searchable HTML schedule"
+          }
+        ],
+        "extractedData": {
+          "allPrices": [],
+          "allTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "allDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "allItems": []
+        }
+      }
+    }
+  ],
+  "imageAnalysis": {
+    "totalImages": 2,
+    "analyzed": 2,
+    "withOCR": 1,
+    "errors": 0,
+    "byType": {
+      "schedule": [
+        {
+          "url": "https://www.fitness1440.com/yorkpa/schedule-feb-2024.jpg",
+          "fileName": "schedule-feb-2024.jpg",
+          "altText": null,
+          "ocrResult": {
+            "url": "https://www.fitness1440.com/yorkpa/schedule-feb-2024.jpg",
+            "text": "CLASS SCHEDULE\nMonday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM HIIT\nTuesday: 6:00 AM Bootcamp, 7:00 AM Barre, 6:00 PM Kickboxing\nWednesday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Strength\nThursday: 6:00 AM Pilates, 7:00 AM Zumba, 6:00 PM Boxing\nFriday: 6:00 AM Yoga, 7:00 AM Spin, 5:00 PM Circuit\nSaturday: 9:00 AM Bootcamp, 10:00 AM Yoga\nSunday: 10:00 AM Restorative Yoga",
+            "confidence": 0.85,
+            "contentType": "schedule",
+            "structure": "timetable",
+            "detectedElements": {
+              "prices": [],
+              "times": [
+                "6:00",
+                "7:00",
+                "5:00",
+                "9:00",
+                "10:00"
+              ],
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ]
+            },
+            "usedHeuristics": true
+          },
+          "contentType": "schedule",
+          "confidence": 0.85,
+          "recommendation": {
+            "issue": "Schedule is embedded in an image",
+            "impact": [
+              "Google cannot index class times",
+              "Screen readers cannot read schedule",
+              "Mobile users cannot zoom text",
+              "Updates require image editing"
+            ],
+            "solution": "Convert to HTML table with structured data",
+            "priority": "high",
+            "roi": "Capture search traffic for \"yoga classes 6am york pa\" etc."
+          }
+        }
+      ],
+      "menu": [],
+      "pricing": [],
+      "gallery": [
+        {
+          "url": "https://www.fitness1440.com/yorkpa/gym-photo.jpg",
+          "fileName": "gym-photo.jpg",
+          "altText": null,
+          "ocrResult": {
+            "url": "https://www.fitness1440.com/yorkpa/gym-photo.jpg",
+            "text": "",
+            "confidence": 0,
+            "contentType": "unknown",
+            "structure": null,
+            "detectedElements": [],
+            "usedHeuristics": true
+          },
+          "contentType": "gallery",
+          "confidence": 0.5,
+          "recommendation": null
+        }
+      ],
+      "logo": [],
+      "unknown": []
+    },
+    "criticalFindings": [
+      {
+        "type": "image_schedules",
+        "count": 1,
+        "severity": "high",
+        "summary": "Found 1 schedule image(s)",
+        "extractedData": {
+          "classTimes": [
+            "6:00",
+            "7:00",
+            "5:00",
+            "9:00",
+            "10:00"
+          ],
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "totalTimes": 5
+        },
+        "businessImpact": "Missing SEO for 5 class times. People searching \"yoga 6am york\" won't find you.",
+        "solution": "Convert to searchable HTML schedule"
+      }
+    ],
+    "extractedData": {
+      "allPrices": [],
+      "allTimes": [
+        "6:00",
+        "7:00",
+        "5:00",
+        "9:00",
+        "10:00"
+      ],
+      "allDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "allItems": []
+    }
+  },
+  "summary": {
+    "total": 12,
+    "working": 12,
+    "broken": 0,
+    "issues": {
+      "critical": [
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "Not mobile-responsive"
+        }
+      ],
+      "high": [
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Menu may be image-based"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "Missing meta description"
+        }
+      ],
+      "medium": [
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Schedule may be image-based"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Schedule may be image-based"
+        }
+      ]
+    }
+  }
+}

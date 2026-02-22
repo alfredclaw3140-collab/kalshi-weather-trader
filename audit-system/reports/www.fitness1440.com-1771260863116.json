@@ -1,0 +1,1405 @@
+{
+  "url": "https://www.fitness1440.com/yorkpa/",
+  "timestamp": "2026-02-16T16:54:23.107Z",
+  "pages": [
+    {
+      "name": "homepage",
+      "url": "https://www.fitness1440.com/yorkpa/",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "about",
+      "url": "https://www.fitness1440.com/yorkpa/about",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/about/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/about/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "contact",
+      "url": "https://www.fitness1440.com/yorkpa/contact",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/contact/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/contact/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "services",
+      "url": "https://www.fitness1440.com/yorkpa/services",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/services/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/services/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "amenities",
+      "url": "https://www.fitness1440.com/yorkpa/amenities",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/amenities/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/amenities/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "menu",
+      "url": "https://www.fitness1440.com/yorkpa/menu",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Menu may be image-based"
+        },
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "menu",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Menu may be image-based"
+          },
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/menu/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/menu/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "schedule",
+      "url": "https://www.fitness1440.com/yorkpa/schedule",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "medium",
+          "message": "Schedule may be image-based"
+        },
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "schedule",
+        "warnings": [
+          {
+            "severity": "medium",
+            "message": "Schedule may be image-based"
+          },
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/schedule/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/schedule/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "classes",
+      "url": "https://www.fitness1440.com/yorkpa/classes",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "medium",
+          "message": "Schedule may be image-based"
+        },
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "schedule",
+        "warnings": [
+          {
+            "severity": "medium",
+            "message": "Schedule may be image-based"
+          },
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/classes/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/classes/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pricing",
+      "url": "https://www.fitness1440.com/yorkpa/pricing",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "pricing",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/pricing/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/pricing/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "memberships",
+      "url": "https://www.fitness1440.com/yorkpa/memberships",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/memberships/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/memberships/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "join",
+      "url": "https://www.fitness1440.com/yorkpa/join",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "general",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/join/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/join/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    },
+    {
+      "name": "gallery",
+      "url": "https://www.fitness1440.com/yorkpa/gallery",
+      "status": 200,
+      "working": true,
+      "html": "<html><head><title>Fitness 1440 York, PA</title></head>\n        <body>\n          <h1>Fitness 1440</h1>\n          <img src=\"schedule-feb-2024.jpg\" alt=\"Class Schedule February 2024\">\n          <img src=\"gym-photo.jpg\" alt=\"Gym interior\">\n        </body></html>",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "high",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "severity": "critical",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "severity": "high",
+          "message": "Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "imageCount": 2,
+        "textLength": 34,
+        "contentType": "gallery",
+        "warnings": [
+          {
+            "severity": "high",
+            "message": "Outdated content: 2024"
+          }
+        ]
+      },
+      "imageAnalysis": {
+        "totalImages": 2,
+        "analyzed": 2,
+        "schedules": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/gallery/schedule-feb-2024.jpg",
+            "type": "schedule",
+            "confidence": 0.8,
+            "altText": null,
+            "fileName": "schedule-feb-2024.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_schedule"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": "[Schedule content - times and class names]",
+              "hasTableStructure": true,
+              "hasPriceFormat": null,
+              "hasTimeFormat": false
+            }
+          }
+        ],
+        "menus": [],
+        "galleries": [
+          {
+            "url": "https://www.fitness1440.com/yorkpa/gallery/gym-photo.jpg",
+            "type": "gallery",
+            "confidence": 0.6,
+            "altText": null,
+            "fileName": "gym-photo.jpg",
+            "dimensions": null,
+            "indicators": [
+              "filename_contains_gallery"
+            ],
+            "advancedAnalysis": {
+              "method": "heuristic_only",
+              "ocrAvailable": false,
+              "detectedText": null,
+              "hasTableStructure": null,
+              "hasPriceFormat": null,
+              "hasTimeFormat": null
+            }
+          }
+        ],
+        "logos": [],
+        "photos": [],
+        "unknown": [],
+        "issues": [
+          {
+            "type": "accessibility",
+            "severity": "medium",
+            "message": "📅 Found 1 image(s) containing schedules",
+            "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+          }
+        ]
+      }
+    }
+  ],
+  "imageAnalysis": {
+    "totalImages": 2,
+    "analyzed": 2,
+    "schedules": [
+      {
+        "url": "https://www.fitness1440.com/yorkpa/schedule-feb-2024.jpg",
+        "type": "schedule",
+        "confidence": 0.8,
+        "altText": null,
+        "fileName": "schedule-feb-2024.jpg",
+        "dimensions": null,
+        "indicators": [
+          "filename_contains_schedule"
+        ],
+        "advancedAnalysis": {
+          "method": "heuristic_only",
+          "ocrAvailable": false,
+          "detectedText": "[Schedule content - times and class names]",
+          "hasTableStructure": true,
+          "hasPriceFormat": null,
+          "hasTimeFormat": false
+        }
+      }
+    ],
+    "menus": [],
+    "galleries": [
+      {
+        "url": "https://www.fitness1440.com/yorkpa/gym-photo.jpg",
+        "type": "gallery",
+        "confidence": 0.6,
+        "altText": null,
+        "fileName": "gym-photo.jpg",
+        "dimensions": null,
+        "indicators": [
+          "filename_contains_gallery"
+        ],
+        "advancedAnalysis": {
+          "method": "heuristic_only",
+          "ocrAvailable": false,
+          "detectedText": null,
+          "hasTableStructure": null,
+          "hasPriceFormat": null,
+          "hasTimeFormat": null
+        }
+      }
+    ],
+    "logos": [],
+    "photos": [],
+    "unknown": [],
+    "issues": [
+      {
+        "type": "accessibility",
+        "severity": "medium",
+        "message": "📅 Found 1 image(s) containing schedules",
+        "recommendation": "Convert schedules to HTML tables for accessibility and SEO"
+      }
+    ]
+  },
+  "summary": {
+    "total": 12,
+    "working": 12,
+    "broken": 0,
+    "issues": {
+      "critical": [
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "Not mobile-responsive"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "Not mobile-responsive"
+        }
+      ],
+      "high": [
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Menu may be image-based"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "Missing meta description"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "Outdated content: 2024"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "Missing meta description"
+        }
+      ],
+      "medium": [
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "Schedule may be image-based"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "Schedule may be image-based"
+        },
+        {
+          "page": "Image Analysis",
+          "url": "-",
+          "message": "📅 Found 1 image(s) containing schedules"
+        }
+      ]
+    }
+  }
+}

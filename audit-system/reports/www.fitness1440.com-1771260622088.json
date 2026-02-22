@@ -1,0 +1,1759 @@
+{
+  "url": "https://www.fitness1440.com/yorkpa/",
+  "timestamp": "2026-02-16T16:50:22.083Z",
+  "pages": [
+    {
+      "name": "homepage",
+      "url": "https://www.fitness1440.com/yorkpa/",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "about",
+      "url": "https://www.fitness1440.com/yorkpa/about",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/about",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "about",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "contact",
+      "url": "https://www.fitness1440.com/yorkpa/contact",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/contact",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "contact",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "services",
+      "url": "https://www.fitness1440.com/yorkpa/services",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/services",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "amenities",
+      "url": "https://www.fitness1440.com/yorkpa/amenities",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/amenities",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "menu",
+      "url": "https://www.fitness1440.com/yorkpa/menu",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/menu",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "menu",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "food",
+      "url": "https://www.fitness1440.com/yorkpa/food",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/food",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "menu",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "drinks",
+      "url": "https://www.fitness1440.com/yorkpa/drinks",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/drinks",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "order-online",
+      "url": "https://www.fitness1440.com/yorkpa/order-online",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/order-online",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "order",
+      "url": "https://www.fitness1440.com/yorkpa/order",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/order",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "delivery",
+      "url": "https://www.fitness1440.com/yorkpa/delivery",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/delivery",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "catering",
+      "url": "https://www.fitness1440.com/yorkpa/catering",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/catering",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "reservations",
+      "url": "https://www.fitness1440.com/yorkpa/reservations",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/reservations",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "classes",
+      "url": "https://www.fitness1440.com/yorkpa/classes",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/classes",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "schedule",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "schedule",
+      "url": "https://www.fitness1440.com/yorkpa/schedule",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/schedule",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "schedule",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "timetable",
+      "url": "https://www.fitness1440.com/yorkpa/timetable",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/timetable",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "schedule",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "trainers",
+      "url": "https://www.fitness1440.com/yorkpa/trainers",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/trainers",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "staff",
+      "url": "https://www.fitness1440.com/yorkpa/staff",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/staff",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "team",
+      "url": "https://www.fitness1440.com/yorkpa/team",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/team",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "personal-training",
+      "url": "https://www.fitness1440.com/yorkpa/personal-training",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/personal-training",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "pricing",
+      "url": "https://www.fitness1440.com/yorkpa/pricing",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/pricing",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "pricing",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "rates",
+      "url": "https://www.fitness1440.com/yorkpa/rates",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/rates",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "pricing",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "memberships",
+      "url": "https://www.fitness1440.com/yorkpa/memberships",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/memberships",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "membership",
+      "url": "https://www.fitness1440.com/yorkpa/membership",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/membership",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "join",
+      "url": "https://www.fitness1440.com/yorkpa/join",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/join",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "join-now",
+      "url": "https://www.fitness1440.com/yorkpa/join-now",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/join-now",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "signup",
+      "url": "https://www.fitness1440.com/yorkpa/signup",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/signup",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "register",
+      "url": "https://www.fitness1440.com/yorkpa/register",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/register",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "free-pass",
+      "url": "https://www.fitness1440.com/yorkpa/free-pass",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/free-pass",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "free-trial",
+      "url": "https://www.fitness1440.com/yorkpa/free-trial",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/free-trial",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "get-started",
+      "url": "https://www.fitness1440.com/yorkpa/get-started",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/get-started",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "book-now",
+      "url": "https://www.fitness1440.com/yorkpa/book-now",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/book-now",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "gallery",
+      "url": "https://www.fitness1440.com/yorkpa/gallery",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/gallery",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "gallery",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "photos",
+      "url": "https://www.fitness1440.com/yorkpa/photos",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/photos",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "gallery",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "videos",
+      "url": "https://www.fitness1440.com/yorkpa/videos",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/videos",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "reviews",
+      "url": "https://www.fitness1440.com/yorkpa/reviews",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/reviews",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "testimonials",
+      "url": "https://www.fitness1440.com/yorkpa/testimonials",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/testimonials",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "success-stories",
+      "url": "https://www.fitness1440.com/yorkpa/success-stories",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/success-stories",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "locations",
+      "url": "https://www.fitness1440.com/yorkpa/locations",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/locations",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "hours",
+      "url": "https://www.fitness1440.com/yorkpa/hours",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/hours",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "directions",
+      "url": "https://www.fitness1440.com/yorkpa/directions",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/directions",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "faq",
+      "url": "https://www.fitness1440.com/yorkpa/faq",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/faq",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "blog",
+      "url": "https://www.fitness1440.com/yorkpa/blog",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/blog",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "events",
+      "url": "https://www.fitness1440.com/yorkpa/events",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/events",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "specials",
+      "url": "https://www.fitness1440.com/yorkpa/specials",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/specials",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "deals",
+      "url": "https://www.fitness1440.com/yorkpa/deals",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/deals",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    },
+    {
+      "name": "promotions",
+      "url": "https://www.fitness1440.com/yorkpa/promotions",
+      "status": 200,
+      "working": true,
+      "finalUrl": "https://www.fitness1440.com/yorkpa/promotions",
+      "title": "Fitness 1440 York, PA",
+      "issues": [
+        {
+          "severity": "critical",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "severity": "high",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "contentAnalysis": {
+        "hasTextContent": false,
+        "hasImageContent": false,
+        "imageCount": 0,
+        "textLength": 94,
+        "contentType": "general",
+        "warnings": [],
+        "visualContent": []
+      }
+    }
+  ],
+  "summary": {
+    "total": 47,
+    "working": 47,
+    "broken": 0,
+    "redirects": 0,
+    "issues": {
+      "critical": [
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "food",
+          "url": "https://www.fitness1440.com/yorkpa/food",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "drinks",
+          "url": "https://www.fitness1440.com/yorkpa/drinks",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "order-online",
+          "url": "https://www.fitness1440.com/yorkpa/order-online",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "order",
+          "url": "https://www.fitness1440.com/yorkpa/order",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "delivery",
+          "url": "https://www.fitness1440.com/yorkpa/delivery",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "catering",
+          "url": "https://www.fitness1440.com/yorkpa/catering",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "reservations",
+          "url": "https://www.fitness1440.com/yorkpa/reservations",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "timetable",
+          "url": "https://www.fitness1440.com/yorkpa/timetable",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "trainers",
+          "url": "https://www.fitness1440.com/yorkpa/trainers",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "staff",
+          "url": "https://www.fitness1440.com/yorkpa/staff",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "team",
+          "url": "https://www.fitness1440.com/yorkpa/team",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "personal-training",
+          "url": "https://www.fitness1440.com/yorkpa/personal-training",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "rates",
+          "url": "https://www.fitness1440.com/yorkpa/rates",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "membership",
+          "url": "https://www.fitness1440.com/yorkpa/membership",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "join-now",
+          "url": "https://www.fitness1440.com/yorkpa/join-now",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "signup",
+          "url": "https://www.fitness1440.com/yorkpa/signup",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "register",
+          "url": "https://www.fitness1440.com/yorkpa/register",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "free-pass",
+          "url": "https://www.fitness1440.com/yorkpa/free-pass",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "free-trial",
+          "url": "https://www.fitness1440.com/yorkpa/free-trial",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "get-started",
+          "url": "https://www.fitness1440.com/yorkpa/get-started",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "photos",
+          "url": "https://www.fitness1440.com/yorkpa/photos",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "videos",
+          "url": "https://www.fitness1440.com/yorkpa/videos",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "testimonials",
+          "url": "https://www.fitness1440.com/yorkpa/testimonials",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "success-stories",
+          "url": "https://www.fitness1440.com/yorkpa/success-stories",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "locations",
+          "url": "https://www.fitness1440.com/yorkpa/locations",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "hours",
+          "url": "https://www.fitness1440.com/yorkpa/hours",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "directions",
+          "url": "https://www.fitness1440.com/yorkpa/directions",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "faq",
+          "url": "https://www.fitness1440.com/yorkpa/faq",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "blog",
+          "url": "https://www.fitness1440.com/yorkpa/blog",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "events",
+          "url": "https://www.fitness1440.com/yorkpa/events",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "specials",
+          "url": "https://www.fitness1440.com/yorkpa/specials",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "deals",
+          "url": "https://www.fitness1440.com/yorkpa/deals",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        },
+        {
+          "page": "promotions",
+          "url": "https://www.fitness1440.com/yorkpa/promotions",
+          "message": "❌ Not mobile-responsive (no viewport)"
+        }
+      ],
+      "high": [
+        {
+          "page": "homepage",
+          "url": "https://www.fitness1440.com/yorkpa/",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "about",
+          "url": "https://www.fitness1440.com/yorkpa/about",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "contact",
+          "url": "https://www.fitness1440.com/yorkpa/contact",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "services",
+          "url": "https://www.fitness1440.com/yorkpa/services",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "amenities",
+          "url": "https://www.fitness1440.com/yorkpa/amenities",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "menu",
+          "url": "https://www.fitness1440.com/yorkpa/menu",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "food",
+          "url": "https://www.fitness1440.com/yorkpa/food",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "drinks",
+          "url": "https://www.fitness1440.com/yorkpa/drinks",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "order-online",
+          "url": "https://www.fitness1440.com/yorkpa/order-online",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "order",
+          "url": "https://www.fitness1440.com/yorkpa/order",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "delivery",
+          "url": "https://www.fitness1440.com/yorkpa/delivery",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "catering",
+          "url": "https://www.fitness1440.com/yorkpa/catering",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "reservations",
+          "url": "https://www.fitness1440.com/yorkpa/reservations",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "classes",
+          "url": "https://www.fitness1440.com/yorkpa/classes",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "schedule",
+          "url": "https://www.fitness1440.com/yorkpa/schedule",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "timetable",
+          "url": "https://www.fitness1440.com/yorkpa/timetable",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "trainers",
+          "url": "https://www.fitness1440.com/yorkpa/trainers",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "staff",
+          "url": "https://www.fitness1440.com/yorkpa/staff",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "team",
+          "url": "https://www.fitness1440.com/yorkpa/team",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "personal-training",
+          "url": "https://www.fitness1440.com/yorkpa/personal-training",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "pricing",
+          "url": "https://www.fitness1440.com/yorkpa/pricing",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "rates",
+          "url": "https://www.fitness1440.com/yorkpa/rates",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "memberships",
+          "url": "https://www.fitness1440.com/yorkpa/memberships",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "membership",
+          "url": "https://www.fitness1440.com/yorkpa/membership",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "join",
+          "url": "https://www.fitness1440.com/yorkpa/join",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "join-now",
+          "url": "https://www.fitness1440.com/yorkpa/join-now",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "signup",
+          "url": "https://www.fitness1440.com/yorkpa/signup",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "register",
+          "url": "https://www.fitness1440.com/yorkpa/register",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "free-pass",
+          "url": "https://www.fitness1440.com/yorkpa/free-pass",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "free-trial",
+          "url": "https://www.fitness1440.com/yorkpa/free-trial",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "get-started",
+          "url": "https://www.fitness1440.com/yorkpa/get-started",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "book-now",
+          "url": "https://www.fitness1440.com/yorkpa/book-now",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "gallery",
+          "url": "https://www.fitness1440.com/yorkpa/gallery",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "photos",
+          "url": "https://www.fitness1440.com/yorkpa/photos",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "videos",
+          "url": "https://www.fitness1440.com/yorkpa/videos",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "reviews",
+          "url": "https://www.fitness1440.com/yorkpa/reviews",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "testimonials",
+          "url": "https://www.fitness1440.com/yorkpa/testimonials",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "success-stories",
+          "url": "https://www.fitness1440.com/yorkpa/success-stories",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "locations",
+          "url": "https://www.fitness1440.com/yorkpa/locations",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "hours",
+          "url": "https://www.fitness1440.com/yorkpa/hours",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "directions",
+          "url": "https://www.fitness1440.com/yorkpa/directions",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "faq",
+          "url": "https://www.fitness1440.com/yorkpa/faq",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "blog",
+          "url": "https://www.fitness1440.com/yorkpa/blog",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "events",
+          "url": "https://www.fitness1440.com/yorkpa/events",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "specials",
+          "url": "https://www.fitness1440.com/yorkpa/specials",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "deals",
+          "url": "https://www.fitness1440.com/yorkpa/deals",
+          "message": "⚠️ Missing meta description"
+        },
+        {
+          "page": "promotions",
+          "url": "https://www.fitness1440.com/yorkpa/promotions",
+          "message": "⚠️ Missing meta description"
+        }
+      ],
+      "medium": [],
+      "low": []
+    }
+  }
+}
