@@ -108,8 +108,8 @@ impl Default for Config {
             trading: TradingConfig {
                 bankroll: 100.0,
                 edge_threshold: 0.15,
-                dry_run: true,
-                check_interval_minutes: 30,
+                dry_run: false,  // LIVE TRADING ENABLED
+                check_interval_minutes: 5,  // Scan every 5 minutes
                 max_positions: 6,
                 max_exposure: 0.30,
             },
@@ -130,6 +130,7 @@ mod tests {
         let config = Config::default();
         assert_eq!(config.trading.bankroll, 100.0);
         assert_eq!(config.trading.edge_threshold, 0.15);
-        assert!(config.trading.dry_run);
+        assert!(!config.trading.dry_run); // Live trading by default
+        assert_eq!(config.trading.check_interval_minutes, 5); // 5 minute scans
     }
 }
