@@ -1,7 +1,7 @@
-//! Weather Trading Bot - Rust Edition - ALL WEATHER MARKETS
+//! Weather Trading Bot - Rust Edition - ALL WEATHER MARKETS + WIND
 use weather_trader::{
     KalshiClient, TradingBot, Config, 
-    SnowTrader, RainTrader, SevereWeatherTrader
+    SnowTrader, RainTrader, SevereWeatherTrader, WindHumidityTrader
 };
 use weather_trader::dashboard::Dashboard;
 use weather_trader::bls::BLSClient;
@@ -15,9 +15,9 @@ use std::env;
 async fn main() -> anyhow::Result<()> {
     tracing_subscriber::fmt().with_max_level(Level::INFO).init();
     
-    info!("🌦️  Weather Trading Bot - Rust Edition v0.3.0");
+    info!("🌦️  Weather Trading Bot - Rust Edition v0.4.0");
     info!("================================================");
-    info!("📡 Trading ALL weather markets: Temps | Snow | Rain | Severe");
+    info!("📡 Trading ALL weather: Temps | Snow | Rain | Severe | WIND");
     
     let config = Config::load().unwrap_or_default();
     
@@ -60,6 +60,7 @@ async fn main() -> anyhow::Result<()> {
     let snow_bot = Arc::new(SnowTrader::new((*kalshi).clone(), bankroll, dry_run));
     let rain_bot = Arc::new(RainTrader::new((*kalshi).clone(), bankroll, dry_run));
     let severe_bot = Arc::new(SevereWeatherTrader::new((*kalshi).clone(), bankroll, dry_run));
+    let wind_bot = Arc::new(WindHumidityTrader::new((*kalshi).clone(), bankroll, dry_run));
     
     // Print account summary
     match temp_bot.get_account_summary().await {
@@ -75,7 +76,7 @@ async fn main() -> anyhow::Result<()> {
     }
     
     // Run all scans
-    run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot).await;
+    run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot, &wind_bot).await;
     
     // Set up periodic scanning
     let mut ticker = interval(Duration::from_secs(config.trading.check_interval_minutes * 60));
@@ -84,7 +85,7 @@ async fn main() -> anyhow::Result<()> {
     
     loop {
         ticker.tick().await;
-        run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot).await;
+        run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot, &wind_bot).await;
     }
 }
 
@@ -93,58 +94,50 @@ async fn run_all_scans(
     snow: &Arc<SnowTrader>,
     rain: &Arc<RainTrader>,
     severe: &Arc<SevereWeatherTrader>,
+    wind: &Arc<WindHumidityTrader>,
 ) {
     let now = chrono::Local::now().format("%Y-%m-%d %H:%M:%S");
     
     // Temperature scan
     info!("\n🌡️  [{}] TEMPERATURE scan...", now);
     match temp.scan_for_opportunities().await {
-        Ok(opps) => {
-            if opps.is_empty() {
-                info!("  No temperature opportunities found");
-            } else {
-                info!("  ✅ Found {} temperature opportunities", opps.len());
-            }
-        }
+        Ok(opps) => report_opportunities("Temperature", opps),
         Err(e) => error!("  ❌ Error: {}", e),
     }
     
     // Snow scan
     info!("\n❄️  [{}] SNOW scan...", now);
     match snow.scan_snow_opportunities().await {
-        Ok(opps) => {
-            if opps.is_empty() {
-                info!("  No snow opportunities found");
-            } else {
-                info!("  ✅ Found {} snow opportunities", opps.len());
-            }
-        }
+        Ok(opps) => report_opportunities("Snow", opps),
         Err(e) => error!("  ❌ Error: {}", e),
     }
     
     // Rain scan
     info!("\n🌧️  [{}] RAIN scan...", now);
     match rain.scan_rain_opportunities().await {
-        Ok(opps) => {
-            if opps.is_empty() {
-                info!("  No rain opportunities found");
-            } else {
-                info!("  ✅ Found {} rain opportunities", opps.len());
-            }
-        }
+        Ok(opps) => report_opportunities("Rain", opps),
         Err(e) => error!("  ❌ Error: {}", e),
     }
     
     // Severe weather scan
     info!("\n🌪️  [{}] SEVERE WEATHER scan...", now);
     match severe.scan_severe_opportunities().await {
-        Ok(opps) => {
-            if opps.is_empty() {
-                info!("  No severe weather opportunities found");
-            } else {
-                info!("  ✅ Found {} severe weather opportunities", opps.len());
-            }
-        }
+        Ok(opps) => report_opportunities("Severe", opps),
         Err(e) => error!("  ❌ Error: {}", e),
+    }
+    
+    // Wind scan
+    info!("\n💨  [{}] WIND scan...", now);
+    match wind.scan_wind_opportunities().await {
+        Ok(opps) => report_opportunities("Wind", opps),
+        Err(e) => error!("  ❌ Error: {}", e),
+    }
+}
+
+fn report_opportunities(category: &str, opps: Vec<impl std::fmt::Debug>) {
+    if opps.is_empty() {
+        info!("  No {} opportunities found", category);
+    } else {
+        info!("  ✅ Found {} {} opportunities", opps.len(), category);
     }
 }
