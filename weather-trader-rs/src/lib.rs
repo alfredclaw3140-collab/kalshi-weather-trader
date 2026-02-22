@@ -14,6 +14,7 @@ pub mod weather_models;
 pub mod rain_trader;
 pub mod severe_weather_trader;
 pub mod wind_humidity_trader;
+pub mod lake_trader;
 
 // Re-export main types
 pub use kalshi::KalshiClient;
@@ -27,6 +28,7 @@ pub use snow_noaa::SnowNOAAClient;
 pub use rain_trader::RainTrader;
 pub use severe_weather_trader::SevereWeatherTrader;
 pub use wind_humidity_trader::WindHumidityTrader;
+pub use lake_trader::LakeTrader;
 
 use thiserror::Error;
 

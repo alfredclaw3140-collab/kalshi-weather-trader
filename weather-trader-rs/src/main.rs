@@ -1,7 +1,7 @@
-//! Weather Trading Bot - Rust Edition - ALL WEATHER MARKETS + WIND
+//! Weather Trading Bot - Rust Edition - ALL WEATHER + LAKE MICHIGAN
 use weather_trader::{
     KalshiClient, TradingBot, Config, 
-    SnowTrader, RainTrader, SevereWeatherTrader, WindHumidityTrader
+    SnowTrader, RainTrader, SevereWeatherTrader, WindHumidityTrader, LakeTrader
 };
 use weather_trader::dashboard::Dashboard;
 use weather_trader::bls::BLSClient;
@@ -15,9 +15,9 @@ use std::env;
 async fn main() -> anyhow::Result<()> {
     tracing_subscriber::fmt().with_max_level(Level::INFO).init();
     
-    info!("🌦️  Weather Trading Bot - Rust Edition v0.4.0");
+    info!("🌦️  Weather Trading Bot - Rust Edition v0.5.0");
     info!("================================================");
-    info!("📡 Trading ALL weather: Temps | Snow | Rain | Severe | WIND");
+    info!("📡 Trading ALL weather + 🌊 Lake Michigan");
     
     let config = Config::load().unwrap_or_default();
     
@@ -61,6 +61,7 @@ async fn main() -> anyhow::Result<()> {
     let rain_bot = Arc::new(RainTrader::new((*kalshi).clone(), bankroll, dry_run));
     let severe_bot = Arc::new(SevereWeatherTrader::new((*kalshi).clone(), bankroll, dry_run));
     let wind_bot = Arc::new(WindHumidityTrader::new((*kalshi).clone(), bankroll, dry_run));
+    let lake_bot = Arc::new(LakeTrader::new((*kalshi).clone(), bankroll, dry_run));
     
     // Print account summary
     match temp_bot.get_account_summary().await {
@@ -76,7 +77,7 @@ async fn main() -> anyhow::Result<()> {
     }
     
     // Run all scans
-    run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot, &wind_bot).await;
+    run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot, &wind_bot, &lake_bot).await;
     
     // Set up periodic scanning
     let mut ticker = interval(Duration::from_secs(config.trading.check_interval_minutes * 60));
@@ -85,7 +86,7 @@ async fn main() -> anyhow::Result<()> {
     
     loop {
         ticker.tick().await;
-        run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot, &wind_bot).await;
+        run_all_scans(&temp_bot, &snow_bot, &rain_bot, &severe_bot, &wind_bot, &lake_bot).await;
     }
 }
 
@@ -95,6 +96,7 @@ async fn run_all_scans(
     rain: &Arc<RainTrader>,
     severe: &Arc<SevereWeatherTrader>,
     wind: &Arc<WindHumidityTrader>,
+    lake: &Arc<LakeTrader>,
 ) {
     let now = chrono::Local::now().format("%Y-%m-%d %H:%M:%S");
     
@@ -130,6 +132,13 @@ async fn run_all_scans(
     info!("\n💨  [{}] WIND scan...", now);
     match wind.scan_wind_opportunities().await {
         Ok(opps) => report_opportunities("Wind", opps),
+        Err(e) => error!("  ❌ Error: {}", e),
+    }
+    
+    // Lake Michigan scan
+    info!("\n🌊  [{}] LAKE MICHIGAN scan...", now);
+    match lake.scan_lake_opportunities().await {
+        Ok(opps) => report_opportunities("Lake Michigan", opps),
         Err(e) => error!("  ❌ Error: {}", e),
     }
 }
