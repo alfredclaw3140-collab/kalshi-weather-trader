@@ -10,6 +10,9 @@ pub mod dashboard;
 pub mod snow_models;
 pub mod snow_noaa;
 pub mod snow_trader;
+pub mod weather_models;
+pub mod rain_trader;
+pub mod severe_weather_trader;
 
 // Re-export main types
 pub use kalshi::KalshiClient;
@@ -20,6 +23,8 @@ pub use bls::BLSClient;
 pub use dashboard::Dashboard;
 pub use snow_trader::SnowTrader;
 pub use snow_noaa::SnowNOAAClient;
+pub use rain_trader::RainTrader;
+pub use severe_weather_trader::SevereWeatherTrader;
 
 use thiserror::Error;
 
