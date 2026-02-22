@@ -7,6 +7,9 @@ pub mod bot;
 pub mod config;
 pub mod bls;
 pub mod dashboard;
+pub mod snow_models;
+pub mod snow_noaa;
+pub mod snow_trader;
 
 // Re-export main types
 pub use kalshi::KalshiClient;
@@ -15,6 +18,8 @@ pub use bot::TradingBot;
 pub use config::Config;
 pub use bls::BLSClient;
 pub use dashboard::Dashboard;
+pub use snow_trader::SnowTrader;
+pub use snow_noaa::SnowNOAAClient;
 
 use thiserror::Error;
 

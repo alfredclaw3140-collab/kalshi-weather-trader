@@ -32,6 +32,7 @@ struct KalshiMarketsResponse {
     markets: Vec<KalshiMarket>,
 }
 
+#[derive(Clone)]
 pub struct KalshiClient {
     client: reqwest::Client,
     private_key: Option<RsaPrivateKey>,

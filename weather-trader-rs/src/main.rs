@@ -1,5 +1,5 @@
 //! Weather Trading Bot - Rust Edition
-use weather_trader::{KalshiClient, TradingBot, Config};
+use weather_trader::{KalshiClient, TradingBot, Config, SnowTrader};
 use weather_trader::dashboard::Dashboard;
 use weather_trader::bls::BLSClient;
 use tracing::{info, error, Level};
@@ -15,7 +15,7 @@ async fn main() -> anyhow::Result<()> {
         .with_max_level(Level::INFO)
         .init();
     
-    info!("🌦️  Weather Trading Bot - Rust Edition v0.1.0");
+    info!("🌦️  Weather Trading Bot - Rust Edition v0.2.0");
     info!("================================================");
     
     // Load configuration
@@ -35,11 +35,16 @@ async fn main() -> anyhow::Result<()> {
         .map(|v| v == "true")
         .unwrap_or(true);
     
+    let enable_snow = env::var("SNOW")
+        .map(|v| v != "false")
+        .unwrap_or(true);
+    
     info!("\n📊 Configuration:");
     info!("  Bankroll: ${:.2}", bankroll);
     info!("  Edge Threshold: {:.0}%", config.trading.edge_threshold * 100.0);
     info!("  Mode: {}", if dry_run { "🔒 DRY RUN" } else { "🔴 LIVE TRADING" });
     info!("  Check Interval: {} minutes", config.trading.check_interval_minutes);
+    info!("  Snow Trading: {}", if enable_snow { "❄️ ENABLED" } else { "disabled" });
     
     // Check for upcoming economic events
     let bls = BLSClient::new();
@@ -69,16 +74,25 @@ async fn main() -> anyhow::Result<()> {
         }
     };
     
-    // Create trading bot
-    let bot = Arc::new(TradingBot::new(
-        kalshi, 
+    let kalshi = Arc::new(kalshi);
+    
+    // Create temperature trading bot
+    let temp_bot = Arc::new(TradingBot::new(
+        (*kalshi).clone(), 
         bankroll, 
         config.trading.edge_threshold, 
         dry_run
     ));
     
+    // Create snow trading bot
+    let snow_bot = Arc::new(SnowTrader::new(
+        (*kalshi).clone(),
+        bankroll,
+        dry_run
+    ));
+    
     // Print account summary if authenticated
-    match bot.get_account_summary().await {
+    match temp_bot.get_account_summary().await {
         Ok(summary) => info!("\n{}", summary),
         Err(e) => info!("\n⚠️  Could not fetch account: {}", e),
     }
@@ -92,8 +106,11 @@ async fn main() -> anyhow::Result<()> {
         info!("\n🌐 Dashboard: http://localhost:8080");
     }
     
-    // Run initial scan
-    run_scan(&bot).await;
+    // Run initial scans
+    run_temp_scan(&temp_bot).await;
+    if enable_snow {
+        run_snow_scan(&snow_bot).await;
+    }
     
     // Set up periodic scanning
     let mut ticker = interval(Duration::from_secs(config.trading.check_interval_minutes * 60));
@@ -103,29 +120,27 @@ async fn main() -> anyhow::Result<()> {
     
     loop {
         ticker.tick().await;
-        run_scan(&bot).await;
+        run_temp_scan(&temp_bot).await;
+        if enable_snow {
+            run_snow_scan(&snow_bot).await;
+        }
     }
 }
 
-async fn run_scan(bot: &Arc<TradingBot>) {
-    info!("\n🔍 [{}] Running market scan...", chrono::Local::now().format("%Y-%m-%d %H:%M:%S"));
+async fn run_temp_scan(bot: &Arc<TradingBot>) {
+    info!("\n🌡️  [{}] Running TEMPERATURE market scan...", chrono::Local::now().format("%Y-%m-%d %H:%M:%S"));
     
     match bot.scan_for_opportunities().await {
         Ok(opportunities) => {
             if opportunities.is_empty() {
-                info!("  No opportunities found (markets efficiently priced)");
+                info!("  No temperature opportunities found");
             } else {
-                info!("  ✅ Found {} opportunities:", opportunities.len());
+                info!("  ✅ Found {} temperature opportunities:", opportunities.len());
                 
                 for opp in &opportunities {
                     info!("    {}: {} side, {:.1}% edge, ${:.2} price", 
-                        opp.market_ticker, 
-                        opp.side, 
-                        opp.edge * 100.0, 
-                        opp.market_price
-                    );
+                        opp.market_ticker, opp.side, opp.edge * 100.0, opp.market_price);
                     
-                    // Execute trade if edge is good
                     if opp.edge >= 0.20 {
                         match bot.execute_trade(opp, &[]).await {
                             Ok(result) => info!("      → {}", result),
@@ -135,10 +150,36 @@ async fn run_scan(bot: &Arc<TradingBot>) {
                 }
             }
         }
-        Err(e) => {
-            error!("  ❌ Scan error: {}", e);
-        }
+        Err(e) => error!("  ❌ Temperature scan error: {}", e),
     }
+}
+
+async fn run_snow_scan(bot: &Arc<SnowTrader>) {
+    info!("\n❄️  [{}] Running SNOW market scan...", chrono::Local::now().format("%Y-%m-%d %H:%M:%S"));
     
-    info!("  Scan complete\n");
+    match bot.scan_snow_opportunities().await {
+        Ok(opportunities) => {
+            if opportunities.is_empty() {
+                info!("  No snow opportunities found");
+            } else {
+                info!("  ✅ Found {} snow opportunities:", opportunities.len());
+                
+                for opp in &opportunities {
+                    info!("    {}: {} side, {:.1}% edge, {:.1}\" threshold", 
+                        opp.market.ticker, 
+                        opp.recommended_side, 
+                        opp.edge * 100.0,
+                        opp.market.threshold);
+                    
+                    if opp.edge >= 0.25 {
+                        match bot.execute_snow_trade(opp).await {
+                            Ok(result) => info!("      → {}", result),
+                            Err(e) => error!("      → Snow trade failed: {}", e),
+                        }
+                    }
+                }
+            }
+        }
+        Err(e) => error!("  ❌ Snow scan error: {}", e),
+    }
 }
