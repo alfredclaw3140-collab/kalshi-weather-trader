@@ -67,5 +67,33 @@ class TestWeatherCorrelation(unittest.TestCase):
         self.assertEqual(count, 0)
 
 
+class TestNewCities(unittest.TestCase):
+    """Test new cities are in correct regions."""
+    
+    def test_dallas_with_phoenix(self):
+        """Dallas should correlate with Phoenix (both southwest)."""
+        existing = [{"city": "Phoenix"}]
+        count = check_weather_correlation_risk("Dallas", existing)
+        self.assertEqual(count, 1)
+    
+    def test_philadelphia_northeast(self):
+        """Philadelphia should correlate with NYC."""
+        existing = [{"city": "NYC"}, {"city": "Boston"}]
+        count = check_weather_correlation_risk("Philadelphia", existing)
+        self.assertEqual(count, 2)
+    
+    def test_miami_southeast(self):
+        """Miami should be in southeast region."""
+        existing = [{"city": "Atlanta"}]
+        count = check_weather_correlation_risk("Miami", existing)
+        self.assertEqual(count, 1)
+    
+    def test_denver_isolated(self):
+        """Denver is isolated in mountain region."""
+        existing = [{"city": "Phoenix"}, {"city": "LA"}]
+        count = check_weather_correlation_risk("Denver", existing)
+        self.assertEqual(count, 0)
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

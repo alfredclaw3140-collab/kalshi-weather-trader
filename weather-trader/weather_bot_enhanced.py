@@ -15,7 +15,12 @@ from position_tracker import PositionTracker, Position
 
 API_BASE = "https://api.elections.kalshi.com"
 
-CITY_SERIES = {
+from city_config import CITY_SERIES, CITY_GRID_POINTS, WEATHER_REGIONS
+
+# Backwards compatibility
+CITY_SERIES = CITY_SERIES
+
+_OLD_CITY_SERIES = {
     "NYC": {"high": "KXHIGHNY", "low": "KXLOWNY"},
     "Chicago": {"high": "KXHIGHCHI", "low": "KXLOWCHI"},
     "Houston": {"high": "KXHIGHTHOU", "low": "KXLOWHOU"},
@@ -25,6 +30,9 @@ CITY_SERIES = {
     "LA": {"high": "KXHIGHLAX", "low": "KXLOWLAX"},
     "Atlanta": {"high": "KXHIGHTATL", "low": "KXLOWATL"},
 }
+
+# City regions for correlation tracking
+CITY_REGIONS = WEATHER_REGIONS
 
 
 @dataclass
