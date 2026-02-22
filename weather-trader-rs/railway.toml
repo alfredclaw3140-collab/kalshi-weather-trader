@@ -3,7 +3,7 @@ builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
-region = "us-east4"  # Closest to Kalshi (AWS us-east-1)
+region = "us-east4"
 startCommand = "/app/weather-trader"
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
